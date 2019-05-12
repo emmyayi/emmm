@@ -1,0 +1,84 @@
+/* 版心 */
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;    
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 清除浮动 */
+.clear{
+    clear: both;
+}
+.clearfix:after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+a{
+    cursor:pointer;
+}
+a:hover{
+    color: aqua;
+}
+/* 背景 */
+.bg{
+    background: #252525;
+}
+/* 字体颜色 */
+.fwhite{
+    color: #fff
+}
+.mauto{
+    margin: 0 auto;
+}
+.font20{
+    font-size: 20px;
+} 
+
+.tcenter{
+    text-align: center;
+}
+.bg01{
+    background: url(../imgs/01.jpg) no-repeat;
+   
+}
+.bg02{
+    background: url(../imgs/02.jpg) no-repeat;
+   
+}
+.bg03{
+    background: url(../imgs/03.jpg) no-repeat;
+   
+}
+
+
+.mt25{
+    margin-top: 25px;
+}
+.mt41{
+    margin-top: 41px;
+}
+/* 标题 */
+.title{
+    height: 72px;
+    line-height: 72px;
+    font-size:22px;  
+    color:  #bbb8b5;
+    margin-top: 65px;
+    background: url(../imgs/nav_bg02.png) no-repeat left bottom;
+}
+.title h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: #252525;
+    display: inline-block;
+}
+/* 尾部 */
+.logocolor{
+    color: #696969;
+}

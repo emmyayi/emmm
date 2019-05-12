@@ -1,0 +1,36 @@
+/* 头部的顶部 */
+
+#header .top{
+    line-height: 30px;
+height: 30px;
+background-color: #101010;
+color: #a0a0a0;
+}
+#header .top .wrapper{
+    position: relative;
+    font-size: 14px;
+}
+
+#header .top img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#header .top span{
+    display: inline-block;
+    margin-left: 200px;
+}
+#header .top span a{
+    color: #ff6600;
+}
+/* #header .top .wrapper {
+margin-right: 245px;
+} */
+#header .top .wrapper .sreach{
+    width: 440px;
+	height: 36px;
+	background-color: #ffffff;
+    border: solid 2px #ff6600;
+    margin-left: 316px;
+    margin-top: 4px;
+}
